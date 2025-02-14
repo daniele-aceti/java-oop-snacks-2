@@ -39,17 +39,17 @@ public class ConvertitoreValute {
             if (usdDestinazione == 1) {
                 double total = 1.04; //USD
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + valutaDiDestinazione);
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (gpbDestinazione == 2) {
                 double total = 0.83; //GPB
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + valutaDiDestinazione);
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (jpyDestinazione == 3) {
                 double total = 159.79; //JPY
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " " + valutaDiDestinazione);
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             }
         }
@@ -59,17 +59,17 @@ public class ConvertitoreValute {
             if (eurDestinazione == 0) {
                 double total = 1.04; //EUR
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (gpbDestinazione == 2) {
                 double total = 0.80; //GPB
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (jpyDestinazione == 3) {
                 double total = 153.14; //JPY
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             }
         }
@@ -79,17 +79,17 @@ public class ConvertitoreValute {
             if (eurDestinazione == 0) {
                 double total = 1.20; //EUR
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (usdDestinazione == 1) {
                 double total = 1.25; //USD
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (jpyDestinazione == 3) {
                 double total = 191.87; //JPY
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             }
         }
@@ -99,17 +99,17 @@ public class ConvertitoreValute {
             if (eurDestinazione == 0) {
                 double total = 0.0065; //EUR
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (usdDestinazione == 1) {
                 double total = 0.0063; //USD
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             } else if (gpbDestinazione == 2) {
                 double total = 0.0052; // GPB
                 result = importo * total;
-                System.out.println("La conversione è di: " + result + " EURO");
+                System.out.println("La conversione è di: " + result + "  " + valutaDiDestinazione);
                 return result;
             }
         }
