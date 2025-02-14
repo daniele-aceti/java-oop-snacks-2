@@ -15,9 +15,7 @@ public class Auto {
 
     private final String modello;
 
-  
-
-    public Auto( String modello) {
+    public Auto(String modello) {
         numeroTelaio = 1234567 + contatoreAuto;
         this.modello = modello;
         contatoreAuto++;
